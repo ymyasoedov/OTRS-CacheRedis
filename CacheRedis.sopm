@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<otrs_package version="1.0">
+    <Name>CacheRedis</Name>
+    <Version>6.0.0</Version>
+    <Framework Minimum="6.0.0">6.0.x</Framework>
+    <ModuleRequired>Redis</ModuleRequired>
+    <License>GNU GENERAL PUBLIC LICENSE Version 3, 29 June 2007</License>
+    <Description Lang="en">Cache implementation on Redis.</Description>
+    <Description Lang="ru">Реализация кэша на Redis.</Description>
+    <Filelist>
+        <File Permission="660" Location="Kernel/Config/Files/XML/CacheRedis.xml" />
+        <File Permission="660" Location="Kernel/System/Cache/Redis.pm" />
+        <File Permission="660" Location="doc/en/CacheRedis.md" />
+    </Filelist>
+</otrs_package>
