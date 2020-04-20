@@ -24,4 +24,4 @@ $OTRS_HOME/bin/otrs.Console.pl Admin::Package::Install <path_to_built_opm>
 
 ### Redis or Redis::Fast
 
-You can choose what Redis module being used: `Redis` or `Redis::Fast` (it's compatible with `Redis`, but **~2x faster**).
+You can choose what Redis module will be used: `Redis` or `Redis::Fast` (it's compatible with `Redis`, but **~2x faster**).
