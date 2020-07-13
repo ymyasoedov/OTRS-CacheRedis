@@ -2,7 +2,8 @@
 <otrs_package version="1.0">
     <Name>CacheRedis</Name>
     <Version>6.0.0</Version>
-    <Vendor>Private</Vendor>
+    <Vendor>Yuri Myasoedov</Vendor>
+    <URL>https://github.com/ymyasoedov/OTRS-CacheRedis</URL>
     <Framework Minimum="6.0.0">6.0.x</Framework>
     <ModuleRequired>Redis</ModuleRequired>
     <License>GNU GENERAL PUBLIC LICENSE Version 3, 29 June 2007</License>
