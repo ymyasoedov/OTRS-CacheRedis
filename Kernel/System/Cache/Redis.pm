@@ -109,7 +109,7 @@ sub Get {
         $Value = $Self->{Redis}->get($Key);
     };
     if ($@) {
-        Kernel::OM->Get('Kernel::System::Log')->Log(
+        $Kernel::OM->Get('Kernel::System::Log')->Log(
             Priority => 'error',
             Message  => $@,
         );
@@ -148,7 +148,7 @@ sub Delete {
         $Result = $Self->{Redis}->del($Key);
     };
     if ($@) {
-        Kernel::OM->Get('Kernel::System::Log')->Log(
+        $Kernel::OM->Get('Kernel::System::Log')->Log(
             Priority => 'error',
             Message  => $@,
         );
@@ -197,7 +197,7 @@ sub CleanUp {
         }
     };
     if ($@) {
-        Kernel::OM->Get('Kernel::System::Log')->Log(
+        $Kernel::OM->Get('Kernel::System::Log')->Log(
             Priority => 'error',
             Message  => $@,
         );
